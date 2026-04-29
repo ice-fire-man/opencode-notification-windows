@@ -1,0 +1,29 @@
+{
+  "name": "opencode-notification-windows",
+  "version": "1.0.0",
+  "description": "Windows PowerShell notification plugin for opencode — sound alerts and taskbar flashing on task completion, errors, and permission requests",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./server": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "@opencode-ai/plugin": ">=1.14.0"
+  },
+  "peerDependenciesMeta": {
+    "@opencode-ai/plugin": {
+      "optional": true
+    }
+  },
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "plugin",
+    "notification",
+    "windows",
+    "powershell"
+  ]
+}
